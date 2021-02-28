@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bullsimpact</title>
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet"  href="Bullsimpact.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -13,39 +13,36 @@
 <body>
     
   <!--------section 1-----> 
+    <div class="header">
         <div class="container">
             <div class="navbar">
                <a href="" ><img src="images/logo.png" width="50px" height="45px" ></a>
                 <h1>Bull's Impact</h1> 
                 <nav>
-                    <ul>
+                    <ul id="menu">
                         <li><a href="">Home</a></li>
                         <li><a href="">Resource</a></li>
                         <li><a href="">Contact</a></li>
                         <li><a href="">Account</a></li>
                         <li><a href="">About</a></li>
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-
-
                     </ul>
                 </nav>
+               <div class="menu-icon"><i class="fa fa-bars" aria-hidden="true" onclick="menutoggle()"></i></div>
             </div>
 <!----------section 2----------->
                 <div class="row">
+                    <div class="sec2">
+                        <h1>Learn to trade in most<br> simplified way.</h1> 
+                        <p> Bulls Impact Academy is the best stock market<br> institute which provides the most simplified<br> and to the point stock market course<br> from the scratch for the beginners.</p>
+                    </div>
                     
-                    <div> <img src="images/banner1.jpg" width="1350px"></div>
-                 
-                        <div class="quote"> 
-                            <h1>Learn to trade in most<br> simplified way.</h1> 
-                            <p> Bulls Impact Academy is the best stock market<br> institute which provides the most simplified<br> and to the point stock market course<br> from the scratch for the beginners.</p>
-                        </div>
-                    
+                     
                 </div>
-
+        </div>
+    </div>    
 <!--three show images-----section 3---> 
 
-            <div class="categories">
-                 </div class="small-container"> 
+                <div class="categories">
                     <div class="row"> 
                         <div class="column">
                             <img src="images/cat (1).jpg">
@@ -62,9 +59,8 @@
                             <h2 class="title">stock analysis</h2>
                         </div>
                     </div>  
-                </div>    
-            </div>        
-        </div>   
+                </div>   
+       
         
         <!-----seection 4 button------>
         <div class="container1">
@@ -101,7 +97,7 @@
                             <i class="fa fa-comment" >	</i>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                </p>
                                 
                             <div class="rating">
                                 <i class="fa fa-star"></i>	   			
@@ -117,7 +113,7 @@
                         <i class="fa fa-comment" >	</i>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                            </p>
                             
                         <div class="rating">
                             <i class="fa fa-star"></i>	   			
@@ -133,7 +129,7 @@
                         <i class="fa fa-comment" >	</i>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                            </p>
                             
                         <div class="rating">
                             <i class="fa fa-star"></i>	   			
@@ -225,7 +221,7 @@
                     <div class="column-fot4">
                         <ul>
                             <h3></h3>
-                               <li><a href=""> Home</a></li>
+                               <li><a href="#top"> Home</a></li>
                                <li><a href=""> Resource</a></li>
                                <li><a href=""> Contact</a></li>
                                <li><a href=""> Account</a></li>
@@ -240,5 +236,19 @@
                 <p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i>opyright 2021-BULL'S IMPACT</p>
             </div>
         </div>
+        <!--java script  -->
+        <script>
+            var MenuItems= document.getElementById("menu");
+            menu.style.maxHeight="0px";
+            function menutoggle(){
+                        if(menu.style.maxHeight=="0px")
+                        {
+                            menu.style.maxHeight="200px";
+                        }else
+                        {
+                            menu.style.maxHeight ="0px";
+                        }
+            }
+        </script>
 </body>
 </html>
