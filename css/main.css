@@ -449,7 +449,7 @@ list-style-type:none;
     }
     .contain{
             flex-direction: column;
-    }
+     }
     .colm-img{
         max-width:400px;
         }
@@ -460,8 +460,14 @@ list-style-type:none;
          width:100%;
      }
      .sec2{
-         margin-left:380px;
+         margin-left:500px;
           
+          
+     }
+     .contact-info{
+         width:100%;
+         position: relative;
+         right:50px;
      }
      
      
