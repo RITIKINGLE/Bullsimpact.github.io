@@ -38,15 +38,17 @@ nav ul li a:hover{
                     color:#ff523b;
 
 }
-.sec2 {
+.sec2{
+    
     flex-basis:50%;
     min-width:300px;
-    margin-top: 30px;
-    margin-right: 600px;
-    position:relative;
+    margin-left: 30px;
+ 
+   
 }
 .sec2 h1{
-        font-size: 50px;
+        
+        font-size: 40px;
         line-height: 60px;
         margin:25px 0;
 } 
@@ -54,11 +56,9 @@ nav ul li a:hover{
     font-size: 20px;
 }
 .header{
-    background: url('banner1.jpg') no-repeat top center;
+    background: url('banner3.jpg') no-repeat top;
     background-size:1350px;
-    height:100vh;
-    
-    
+    height:700px;    
 }
 .menu-icon{
      width:30px;
@@ -357,7 +357,7 @@ list-style-type:none;
 		color:aquamarine;
 }
 .contact-form{
-	max-width:550px;
+	max-width:600px;
 	margin:0 auto;
 	background-color:rgba(238, 230, 230, 0.8);
 	border-radius: 5px;
@@ -400,11 +400,25 @@ list-style-type:none;
 @media screen and (max-width:600px){
 	.contact-form{
 				flex-direction: column;
-
+                 
 	}
 	.textarea textarea{
 						height:50px;
 	}
+    .contact-2{
+                padding:50px
+    }
+    .contain{
+        flex-direction: :column;
+    }
+    .contain .contact-info{
+        margin-bottom: 40px;
+    }
+    .contain .contact-info,.input-field,.contact-form{
+        width:100%;
+    }
+
+
 }
  
 /* -----mobile type---- */
@@ -432,6 +446,8 @@ list-style-type:none;
          cursor:pointer;
 
      }
+      
+      
  }
 /* media query */
 
@@ -456,20 +472,13 @@ list-style-type:none;
     .colm{
         margin-left: 22px;
     }    
-     .contact-form, .input-field{
-         width:100%;
-     }
-     .sec2{
-         margin-left:500px;
-          
-          
-     }
-     .contact-info{
-         width:100%;
-         position: relative;
-         right:50px;
-     }
+      
+      
+      
      
+     .social ul li{
+        margin:5px;
+     }
      
 }
 
@@ -496,7 +505,7 @@ list-style-type:none;
                 display: inline-block;
                 margin:30px 30px;
                 font-size: 30px;
-                padding:11px 13px;
+                padding:10px 13px;
                 color:#f3946f;
                 border:1px solid #8a8a8a;
                 border-radius: 50%;
