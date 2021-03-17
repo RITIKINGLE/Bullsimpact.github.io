@@ -75,9 +75,9 @@ nav ul li a:hover{
      
 } 
 .categories{
-    margin-top:80px;   
+     
     max-width:1400px;
-    margin: 70px auto;    
+    margin: 70px auto; 
 
 }
  
@@ -87,7 +87,9 @@ nav ul li a:hover{
     
 }
 .column img{
-            width:100%;
+            width:380px;
+            margin-left: 12px;
+             
 }
 /*section 3*/
 .small-container{
@@ -417,7 +419,7 @@ list-style-type:none;
     .contain .contact-info,.input-field,.contact-form{
         width:100%;
     }
-
+     
 
 }
  
@@ -503,7 +505,7 @@ list-style-type:none;
 }
 .social ul li{
                 display: inline-block;
-                margin:30px 30px;
+                margin:30px 10px;
                 font-size: 30px;
                 padding:10px 13px;
                 color:#f3946f;
